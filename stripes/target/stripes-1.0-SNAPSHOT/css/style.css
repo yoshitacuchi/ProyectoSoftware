@@ -1,0 +1,79 @@
+body { font-family: "Arial";  }
+.nav-space{
+	width: 100%;
+	height: 55px;
+}
+
+.profile{
+	height: 45px;
+	width: 45px;
+    float: left;
+    margin-top: -12px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.btn{
+	border-radius: 2px;
+	border: none;
+	text-transform: uppercase;
+}
+.btn.follow{ background-color: #6F4F5C; color: #fff;}
+.btn.buy{ background-color: #CB7F5D; color: #fff;}
+
+.btn.start{
+	position: relative;
+	z-index: 10;
+	transform: translate3D(0,100px,0);
+	padding:  15px;
+}
+.btn.start a{
+	color: #fff;
+	font-size: 24px;
+}
+.modal-content{
+	border-radius: 2px;
+}
+
+.carousel-caption{
+	padding: 10px 0 15px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(33,33,33,0.5);
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+
+.productos img{
+	width: 100%;
+}
+
+.form-group {
+    padding: 0 5px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px){
+	.navbar-right {
+	    margin-right: 0px;
+	}
+}
